@@ -1,0 +1,6 @@
+Micrograd : Autograd Engine (Automatic Gradient)
+Implements Backpropagation
+
+Backpropagation is at the core of any new Deep Neural Network library
+
+We can create functions a different levels of abstractions. i.e to say that the functions in the Value class don't necessarily need to be the most basic. What needs to be ensured is that we are able to calculate the local derivatives of the output with respect to inputs so that we can continue applying the chain rule of differentiation and backpropagate the gradients.

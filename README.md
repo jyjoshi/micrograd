@@ -7,6 +7,8 @@ Simple visualisation of states using directed acyclic graph helps in understandi
 
 micrograd is a minimalistic neural network library designed to facilitate an understanding of the inner workings of neural networks. This library provides a simple interface for designing neural network architectures, executing a forward pass, and performing backpropagation. It includes a small set of neurons organized into a network, and utilizes a directed acyclic graph for visualizing state propagation. This visualization aids in the step-by-step, layer-by-layer understanding of loss propagation during the backward pass.
 
+![Graph](images/micrograd.png)
+
 ## Features
 
 - Design and implement simple neural network architectures.
